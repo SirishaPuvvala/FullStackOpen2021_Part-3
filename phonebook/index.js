@@ -33,7 +33,6 @@ app.get('/api/persons', (request, response) => {
     response.json(persons)
   })
 })
-
 app.post('/api/persons', (request, response, next) => {
   const body = request.body
 
